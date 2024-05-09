@@ -14,9 +14,7 @@ const Footer = () => {
                     <div className="">
                         <h1 className="text-xl">Quality Food</h1>
                         <p className="text-sm text-zinc-400">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Deleniti nesciunt sit in? Consectetur, illum
-                            ipsum!
+                        Meal planning can be done easily with the meal planning tool
                         </p>
                     </div>
                 </div>

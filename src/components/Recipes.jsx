@@ -10,8 +10,7 @@ const Recipes = () => {
         <div className=" ">
             <h1 className="text-center text-2xl font-semibold">OUR RECIPES</h1>
             <p className="text-center text-zinc-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-                aperiam?
+            Meal planning can be done easily with the meal planning tool
             </p>
             <div className="recipe-cards mt-[5%]  flex flex-wrap p-5">
                 {recipes.length > 0 ? (
