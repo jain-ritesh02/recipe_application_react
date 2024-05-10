@@ -28,7 +28,7 @@ const Update = () => {
         const copyRecipe = [...recipes];
         const recipeIndex = recipes.findIndex((r) => r.id == params.id);
         copyRecipe[recipeIndex] = updatedRecipe;
-        setrecipes(updatedRecipe);
+        setrecipes(copyRecipe);
 
         localStorage.setItem("recipes", JSON.stringify(copyRecipe));
         toast.success("Recipe Updated Successfully!");

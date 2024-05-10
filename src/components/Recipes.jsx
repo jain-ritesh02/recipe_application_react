@@ -5,6 +5,7 @@ import { Recipecontext } from "../contexts/RecipeContext";
 const Recipes = () => {
     const [recipes, setrecipes] = useContext(Recipecontext);
     const { pathname } = useLocation();
+    
     console.log(recipes);
     return (
         <div className=" ">
@@ -31,7 +32,7 @@ const Recipes = () => {
                 </Link>
             )}
         </div>
-    );
+    )
 };
 
 export default Recipes;
